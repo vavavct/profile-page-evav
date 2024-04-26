@@ -1,0 +1,118 @@
+body {
+    text-align: center;
+    font-family:"Quicksand", sans-serif;
+    background-color: aliceblue;
+    font-size: 15px;
+    color:rgb(0, 0, 0)
+}
+
+#introduction p {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: #8ba697;
+    text-align: center;
+}
+
+h1,h2 {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.button-linkedin {
+    color: white;
+    background-color: #8ba697;
+    border-radius: 4px;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-family: "Quicksand", sans serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    color: rgb(220, 204, 204);
+    text-align: center;
+    
+}
+
+.card-beige {
+    background-color:#dccccc;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgb(10, 0, 0);
+    padding: 40px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.img-circle {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.img-arrondi {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.container {
+    width: 700px;
+    margin: 20px auto;
+}
+
+.list-RS {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-RS li {
+    display: inline;
+}
+
+.list-RS li i {
+    font-size: 70px;
+    color: #414542;
+    margin: 0 5px;
+}
+
+.list-RS li i:hover {
+    opacity: 0.6;
+}
+
+.p-justify {
+    text-align: justify;
+}
+
+@media(max-width :1155px) {
+    .cards {
+        grid-template-columns:1fr 1fr 1fr;
+    }  
+    .container {
+        width: 700px;
+    }
+}
+ 
+@media(max-width :700px) {
+    .cards {
+        grid-template-columns:1fr 1fr ;
+    }  
+    .container {
+        width: 400px;
+    }
+}
